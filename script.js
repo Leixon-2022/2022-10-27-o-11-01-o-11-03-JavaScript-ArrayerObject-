@@ -68,12 +68,12 @@ const arrayOfPeople = [
   // 0
   {
     firstName: "Anja",
-    lastName: "Edman",
+    lastName: "E",
   },
   // 1
   {
     firstName: "Eric",
-    lastName: "Westman",
+    lastName: "W",
     age: 150,
   },
   // 2
@@ -84,7 +84,7 @@ const arrayOfPeople = [
   // 3
   {
     firstName: "Michaela",
-    lastName: "Malis",
+    lastName: "M",
     age: 20,
   },
 ]
@@ -99,7 +99,7 @@ for (let index = 0; index < arrayOfPeople.length; index++) {
   console.log('Lastname: ', currentPerson.lastName)
 
   // === == ÄR
-  // !== INTE ÄR
+  // /!== INTE ÄR
   if(currentPerson.age){
     console.log('Age: ', currentPerson.age)
   } else {
